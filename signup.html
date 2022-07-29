@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <h1>Aavaran</h1>
+            <img src="LOGO.jpeg" alt="">
+        </div>
+        <div class="signup-box">
+            <div class="col-1">
+               <img src="img2.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <h2>Let's start</h2>
+                <span>Already have an account?<a href="Login.html">Login</a></span>
+                <a href="" class="google-link">
+                    <img src="google.png" >Continue with Google
+                </a>
+                <h4>OR</h4>
+
+
+                <form method="post" action="signup.php">
+                    <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" placeholder="Enter your email" name="email" class="input-field" required>
+                    </div>
+                    <label for="password">Set Password</label>
+                    <input type="password" placeholder="Enter your password" name="password" class="input-field" required>
+
+                    <div class="row">
+                        <input type="checkbox" checked>
+                        <span>I agree to the <a href="#">Terms and conditions</a></span>
+                    </div>
+                    <button type="submit">Register Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
